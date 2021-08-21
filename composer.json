@@ -1,0 +1,23 @@
+{
+    "name": "kminek/nevermind",
+    "type": "project",
+    "description": "Tool to automate boring tasks when creating new Laravel project",
+    "keywords": ["boilerplate", "skeleton", "framework", "laravel", "php"],
+    "require": {
+        "symfony/console": "5.3.4",
+        "symfony/process": "5.3.4"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "3.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kminek\\Nevermind\\": "src/"
+        }
+    },
+    "scripts": {
+        "cs": [
+            "php-cs-fixer fix"
+        ]
+    }
+}
