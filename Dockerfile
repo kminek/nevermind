@@ -9,8 +9,8 @@ FROM debian:11.0-slim
 ################################################################################
 
 ARG DEBIAN_FRONTEND=noninteractive
-ARG APP_PHP_VER="8.1"
-ARG APP_COMPOSER_VER="2.5.3"
+ARG APP_PHP_VER="8.2"
+ARG APP_COMPOSER_VER="2.7.6"
 
 ENV TERM=xterm
 ENV PATH=${PATH}:/app/vendor/bin
